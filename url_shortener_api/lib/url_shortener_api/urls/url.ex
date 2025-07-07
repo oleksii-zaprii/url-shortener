@@ -15,7 +15,7 @@ defmodule UrlShortenerApi.Urls.Url do
 
   def changeset(url, attrs) do
     url
-    |> cast(attrs, [:original_url, :short_code, :expires_at])
+    |> cast(attrs, [:original_url, :short_code, :expires_at, :clicks])
     |> validate_required([:original_url, :short_code])
     |> validate_url(:original_url)
     |> unique_constraint(:short_code)
