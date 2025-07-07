@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  min-height: 100vh;
+}
+
+.url-form {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.url-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 300px;
+  max-width: 90%;
+}
+
+.shorten-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shorten-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff6b6b;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(255, 107, 107, 0.1);
+  border-radius: 4px;
+}
+
+.urls-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.url-card {
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.url-info div {
+  margin: 8px 0;
+}
+
+.original-url {
+  word-break: break-all;
+}
+
+.short-url {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.short-url a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.copy-btn {
+  padding: 4px 8px;
+  font-size: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clicks {
+  color: #666;
+  font-size: 14px;
+}
